@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{6e80e7cf-7613-4d69-8298-018e73855a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\BMPReader">
+      <UniqueIdentifier>{f182a1d2-7520-4766-a73e-a6cea6c041f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bmpReader.cpp">
+      <Filter>App\BMPReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\bmpReader.h">
+      <Filter>App\BMPReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
