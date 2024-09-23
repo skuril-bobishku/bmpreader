@@ -41,5 +41,6 @@ int main(int argc, char* argv[]) {
 	// BMP 2-й способ
 	bmpReader bmp(bmpPath.string());
 
+	system("pause");
 	return 0;
 }
